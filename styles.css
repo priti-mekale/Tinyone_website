@@ -1,0 +1,229 @@
+body{
+     font-family: "PT Sans", sans-serif; 
+}
+
+.header-section{
+    background-color: #fcdb00;
+    padding:60px 0 110px;
+    
+}
+
+ .nav-default{
+    background:none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 60px;
+}
+.header-section .nav1 li a{
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #010101;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 45px;
+}
+.nav-default .navbar-brand{
+    padding:0;
+}
+
+
+ .header-section .inspire p{
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    
+}
+ .header-section .header_list li{
+    display: inline-block;
+    margin-right:35px;
+    
+
+}
+
+.header_list a i{
+    font-size: 42px;
+    color: #010101;
+    
+}
+.fa-brands{
+    text-align: left;
+}
+
+.ipad{
+    margin-left: 80px;
+    
+}
+.inspire{
+    margin-top: 70px;
+}
+
+
+
+@media all and (max-width:768px){
+    
+.header .navbar-default .navbar-toggle{
+        border: none;
+    }
+    .navbar-default .navbar-toggle:focus,.nav-default .navbar-toggle:hover{
+        background-color: transparent;
+    }
+    .navbar-collapse{
+        border-top: none;
+    }
+    .header .ipad{
+        margin:35px 0 0;
+    }
+  /* .header .fa-brands{
+    text-align: center;
+  } */
+  /* .header .ipad img{
+    margin: 0 auto;
+    text-align: left;
+  } */
+
+}
+/* ..........................................header-section-end........................................ */
+
+.features-section{
+    padding: 120px 0 165px;
+}
+.features-section .features-info h3{
+margin-bottom: 70px;
+}
+.features-section .features-thumbnail{
+    margin-bottom: 90px;
+}
+
+.features-section .features-thumbnail{
+display: table;
+clear: both;
+width: 100%;
+margin-bottom:90px;
+}
+
+.features-section .features-thumbnail i{
+    font-size: 50px;
+    color: #010101; 
+}
+
+
+.thumbnail-info h3{
+    font-size: 22px;
+    color: #010101;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin:0 0 15px;
+}
+
+.thumbnail-info p{
+    font-size: 16px;
+    color: #898989;
+    font-weight: 400;
+}
+
+
+
+@media all and (min-width:768px){
+   .features-section{
+    padding: 50 0;
+   } 
+   .features-section .features-info h3{
+    margin-bottom: 40px;
+   }
+   .features-section .features-thumbnail{
+    margin-bottom: 40px;
+   }
+}
+
+/* .................................features-section-end............................................. */
+
+
+.footer {
+    padding: 90px 0 135px;
+    background-color:#010101;
+
+}
+
+.footer .footer-heading h2 {
+    color: #fcdb00;
+
+}
+.footer .footer-heading h3{
+    color: #898989;
+    margin-bottom: 35px;
+    
+}
+
+
+.footer .contact-form {
+    margin-bottom: 75px;
+}
+
+.footer .contact-form .submit{
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    color: #010101;
+    font-size:16px;
+    font-weight: 800;
+   transition:all 0.5s linear;
+
+}
+
+.footer .contact-form .submit:hover{
+    color:#fcdb00;
+    background-color: #010101;
+}
+
+.footer .social-list li {
+    display:inline-block;
+    margin-right: 30px;
+
+}
+.footer .social-list li i {
+    font-size: 42px;
+    color: #fcdb00;
+
+}
+
+.footer .form-group{
+    margin-bottom: 75px;
+}
+
+.footer .social-list{
+    margin-bottom: 130px;
+}
+
+.footer .footer-list li,.footer .footer-list li a{
+color: #fff;
+font-size: 16px;
+text-transform: capitalize;
+
+}
+
+
+@media all and (max-width:768px){
+  .footer{
+    padding:50px 0;
+  }  
+
+  .footer .contact-form{
+    margin-bottom: 20px;
+  }
+
+  .footer .form-group{
+    margin-bottom: 20px;
+  }
+  .footer .contact-form .submit{
+    width: auto;
+    margin-bottom:20px;
+  }
+  .footer .social-list{
+    margin-bottom: 0;
+  }
+
+}
+
+/* ..........................footer-end................................................... */
+
+
